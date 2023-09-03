@@ -1,0 +1,29 @@
+.rivalHead{
+    color: #FFFFFF;
+}
+.cmsHead{
+    color: #85c3f0;
+}
+.DashobardHeader{
+    font-size: 18px;
+}
+.listItemContainer{
+    display: flex;
+    gap: 10px;
+    padding: 4px 12px;
+}
+.ListItem{
+    font-size: 15px;
+    color: #2a4365;
+}
+.ListItemActive{
+    font-size: 16px;
+    font-weight: 700;
+}
+.headColor{
+    color: #85c3f0;
+}
+.listIcons{
+    font-size: 18px ;
+    color: #2a4365;
+}

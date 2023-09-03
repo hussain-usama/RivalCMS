@@ -1,0 +1,73 @@
+.buttons , .buttons button {
+    font-size: 13px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+  }
+
+  .small {
+    padding: 4px 14px;
+    height: 30px;
+  }
+
+  .large {
+    padding: 8px 16px;
+    height: 60px;
+  }
+  
+  .medium {
+    padding: 6px 16px;
+    height: 40px;
+  }
+  
+  .primary , .primary button {
+    background: #2a4365;
+    border: none;
+    color: #ffffff;
+    box-shadow: none;
+  }
+  .primary:hover {
+    background: #3c5f8f;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .primary:disabled {
+    background: #e8ebeb;
+    border: 1px solid #a2adaf;
+    color: #a2adaf;
+    box-shadow: none;
+  }
+
+  .secondary {
+    background: #FFFFFF;
+    border: 1px solid #2a4365;
+    color: #2a4365;
+    box-shadow: none;
+  }
+  .secondary:hover {
+    background: #faf8f8;
+    border: 1px solid #2a4365;
+    color: #2a4365;
+    cursor: pointer;
+  }
+  .secondary:disabled {
+    background: #ffffff;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: none;
+  }
+.tertiary button{
+  background: #66ace5;
+  border: none;
+  color: #ffffff;
+  box-shadow: none;
+}

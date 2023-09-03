@@ -1,0 +1,51 @@
+.login{
+    background-color: #f7fafc;
+    height: 100%;
+}
+.rivalHead{
+    color: #2a4365;
+}
+.cmsHead{
+    color: #85c3f0;
+}
+.loginMain{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loginHeader{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.loginCard{
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+.loginIcon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 0;
+}
+.loginIcon svg{
+    font-size: 18px;
+    color: #2a4365;
+}
+.signin{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    padding: 20px 0;
+}
+.forgetPasswrod{
+    cursor: pointer;
+    color: #5697d6;
+}
+.errorText{
+    font-size: 11px;
+    color: red;
+}
